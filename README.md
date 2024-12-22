@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: using unwrap() on an iterator without first checking if the iterator is exhausted. The `bug.rs` file contains code that will panic due to this error. The solution, provided in `bugSolution.rs`, shows how to safely handle the possibility of an exhausted iterator.
